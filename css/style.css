@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: pink;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+header .logo {
+  width: 30%;
+}
+header .header-menu {
+  width: 55%;
+  text-align: right;
+}
+header .header-menu ul li a {
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(131, 134, 140, 0.7);
+}
+header .header-end {
+  width: 15%;
+  align-items: center;
+}
+header .header-end .header-sign {
+  width: 40%;
+  background: #24a9e1;
+  color: #ffffff;
+  padding: 5px 14px;
+  border-radius: 10px;
+}
+header .header-end .header-icon {
+  width: 40%;
+  align-items: center;
+}
+header .header-end .header-icon .cart {
+  color: #24a9e1;
+}/*# sourceMappingURL=style.css.map */
